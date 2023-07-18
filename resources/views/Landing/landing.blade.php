@@ -1,7 +1,8 @@
 @extends('Layout/index')
 @section('isi')
 <div class="logo">
-    <img src="" alt="">
+    <img src="{{URL('logo/logo.png') }}" alt="logo1">
+    <img src="{{URL('logo/logo2.png')}}" alt="logo2">
     
 </div>
 <div class="tab-bar">
@@ -11,6 +12,10 @@
         <li>Pengaduan</li>
         <li><input type="search" id="gsearch" name="gsearch">
     </ul>
+</div>
+<div class = "gambar">
+    <img src="{{URL('logo/gambar.png') }}" alt="gambar">
+
 </div>
 <div class="peraturan">
     <h2>Peraturan</h2>
