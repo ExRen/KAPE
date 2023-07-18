@@ -1,6 +1,7 @@
 @extends('Layout/index')
 @section('isi')
-<div class="">
+<div class="logo">
+    <img src="" alt="">
     
 </div>
 <div class="tab-bar">
