@@ -1,0 +1,11 @@
+.peraturan{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aqua;
+    box-shadow: 2cap;
+    border-color: black;
+    border-style: double;
+    background-color: blueviolet;
+}
+.raperda{
+    font-size: 50px;
+}
