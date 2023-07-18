@@ -25,4 +25,8 @@ Route::get('/login',[RouteController::class,'login']);
 // Route::get('/',[Admin\Auth\LoginController::class,'loginForm']);
 // Route::get('/login',[Admin\Auth\LoginController::class,'loginForm'])->name('admin.login');
 
+Router::get('/dbconn', function(){
+    return view('dbconn');
+});
+
 
