@@ -1,7 +1,6 @@
-@extends('Layout/Login')
+@extends('Layout/login')
 @section('ogin')
-<div>
-    <h1>aa</h1>
-</div>
-
+    <div>
+        <h1>LOGIN</h1>
+    </div>
 @endsection
