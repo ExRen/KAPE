@@ -1,6 +1,7 @@
 @extends('Layout/index')
 @section('isi')
-<div class="">
+<div class="logo">
+    <img src="" alt="">
     
 </div>
 <div class="tab-bar">
@@ -14,6 +15,7 @@
 <div class="peraturan">
     <h2>Peraturan</h2>
     <ul>
+        <div class="raperda">
         <li>Raperda
             <ul>
                 <li>2023</li>
@@ -21,6 +23,7 @@
                 <li>2021</li>
             </ul>
         </li>
+        </div>
         <li>Peraturan Daerah (RAPERDA)
             <ul>
                 <li>2023</li>
