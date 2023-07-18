@@ -9,4 +9,8 @@ class RouteController extends Controller
     public function landing() {
         return view('Landing.landing');
     }
+
+    public function login(){
+        return view('Login.login');
+    }
 }

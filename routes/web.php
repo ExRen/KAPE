@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\RouteController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Admin;
 
 /*
 |--------------------------------------------------------------------------
@@ -19,3 +20,9 @@ Route::get('/', function () {
 });
 
 Route::get('/landing',[RouteController::class,'landing']);
+Route::get('/login',[RouteController::class,'login']);
+// Route::prefix('Admin')->group(function(){
+// Route::get('/',[Admin\Auth\LoginController::class,'loginForm']);
+// Route::get('/login',[Admin\Auth\LoginController::class,'loginForm'])->name('admin.login');
+
+
