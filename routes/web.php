@@ -3,6 +3,7 @@
 use App\Http\Controllers\RouteController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Admin;
+use App\Http\Controllers\SessionController;
 
 /*
 |--------------------------------------------------------------------------
@@ -20,13 +21,15 @@ Route::get('/', function () {
 });
 
 Route::get('/landing',[RouteController::class,'landing']);
-Route::get('/login',[RouteController::class,'login']);
+
+Route::get('/sesi',[SessionController::class,'index']);
+Route::post('/sesi/login',[SessionController::class,'login']);
 // Route::prefix('Admin')->group(function(){
 // Route::get('/',[Admin\Auth\LoginController::class,'loginForm']);
 // Route::get('/login',[Admin\Auth\LoginController::class,'loginForm'])->name('admin.login');
 
-Router::get('/dbconn', function(){
-    return view('dbconn');
-});
+//Router::get('/dbconn', function(){//
+  //return view('dbconn');//
+//});//
 
 
