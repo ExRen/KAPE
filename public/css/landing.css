@@ -6,3 +6,7 @@
     border-style: double;
     background-color: blueviolet;
 }
+.tab-bar{
+    position: relative
+    /* weight: 700px; */
+}
