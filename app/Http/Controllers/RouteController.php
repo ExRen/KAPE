@@ -11,6 +11,6 @@ class RouteController extends Controller
     }
 
     public function login(){
-        return view('Login.login');
+        return view('Login.bodylogin');
     }
 }
