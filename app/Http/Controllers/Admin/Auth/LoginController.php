@@ -9,7 +9,7 @@ class LoginController extends Controller
 {
     //
     public function loginForm(){
-        return "Halaman Login administrator"
+        return "Halaman Login administrator";
     }
     
 }
