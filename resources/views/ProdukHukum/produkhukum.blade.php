@@ -7,7 +7,7 @@
 </div>
 
        
- <div class="dropdown show">
+ <div class="atas">
     <a class="btn btn-secondary dropdown-toggle" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
     <div class="dropdown-menu" aria-labelledby="JDIH PROVINSI SUMATERA">
       <a class="dropdown-item" href="#">Beranda</a>
@@ -15,6 +15,27 @@
       <a class="dropdown-item" href="#">Pengaduan</a>
     </div>
 
+    <div class="raperda">
+  <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+    RAPERDA
+  </button>
+  <ul class="dropdown-menu dropdown-menu-dark">
+    <li><a class="dropdown-item" href="#">2021</a></li>
+    <li><a class="dropdown-item" href="#">2015</a></li>
+    <li><a class="dropdown-item" href="#">2012</a></li>
+  </ul>
+</div>
+
+<div class="perda">
+  <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+    PERDA
+  </button>
+  <ul class="dropdown-menu dropdown-menu-dark">
+    <li><a class="dropdown-item" href="#">2021</a></li>
+    <li><a class="dropdown-item" href="#">2015</a></li>
+    <li><a class="dropdown-item" href="#">2012</a></li>
+  </ul>
+</div>
 <div>
     <h3>Peraturan Terbaru</h3>
     <ul>
