@@ -15,6 +15,7 @@ class RouteController extends Controller
     }
 
     public function produkhukum(){
+        
         return view ('ProdukHukum.produkhukum');
     }
 }

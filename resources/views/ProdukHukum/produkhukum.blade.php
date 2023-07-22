@@ -7,17 +7,14 @@
 </div>
 
        
-{{-- <div class="dropdown show">
-    <a class="btn btn-secondary dropdown-toggle" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      Dropdown link
-    </a>
-  
-    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-      <a class="dropdown-item" href="#">Action</a>
-      <a class="dropdown-item" href="#">Another action</a>
-      <a class="dropdown-item" href="#">Something else here</a>
+ <div class="dropdown show">
+    <a class="btn btn-secondary dropdown-toggle" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
+    <div class="dropdown-menu" aria-labelledby="JDIH PROVINSI SUMATERA">
+      <a class="dropdown-item" href="#">Beranda</a>
+      <a class="dropdown-item" href="#">Produk Hukum</a>
+      <a class="dropdown-item" href="#">Pengaduan</a>
     </div>
-  </div> --}}
+
 <div>
     <h3>Peraturan Terbaru</h3>
     <ul>
