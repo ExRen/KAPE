@@ -1,10 +1,10 @@
 .peraturan{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: aqua;
+    color: rgb(253, 255, 255);
     box-shadow: 2cap;
     border-color: black;
     border-style: double;
-    background-color: blueviolet;
+    background-color: #FF3C38;
 }
 .tab-bar{
     position: relative

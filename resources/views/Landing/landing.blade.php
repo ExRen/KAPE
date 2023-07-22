@@ -17,65 +17,76 @@
     <img src="{{URL('logo/gambar.png') }}" alt="gambar">
 
 </div>
-<div class="peraturan">
-    <h2>Peraturan</h2>
+<div class="peraturan ">
+    <center><b>PERATURAN PROVINSI</b>  </center>
     <ul>
-        <div class="raperda">
-        <li>Raperda
+        <div class="Raperda">
+        <li>RAPERDA
             <ul>
-                <li>2023</li>
-                <li>2022</li>
                 <li>2021</li>
+                <li>2015</li>
+                <li>2012</li>
+                <li>2011</li>
             </ul>
         </li>
         </div>
-        <li>Peraturan Daerah (RAPERDA)
+        <li>Peraturan Daerah (PERDA)
             <ul>
-                <li>2023</li>
                 <li>2022</li>
                 <li>2021</li>
+                <li>2020</li>
+                <li>2019</li>
+                <li>2018</li>
+                <li>2017</li>
+                <li>2016</li>
             </ul>
         </li>
         <li>Peraturan Kepala Daerah
             <ul>
-                <li>2023</li>
                 <li>2022</li>
                 <li>2021</li>
+                <li>2020</li>
+                <li>2019</li>
+                <li>2018</li>
+                <li>2017</li>
+                <li>2016</li>
+                <li>2015</li>
             </ul>
         </li>
         <li>Keputusan Kepala Daerah
             <ul>
-                <li>2023</li>
                 <li>2022</li>
                 <li>2021</li>
+                <li>2020</li>
+                <li>2019</li>
+                <li>2014</li>
+                <li>1996</li>
             </ul>
         </li>
         <li>Peraturan Bersama kepala Daerah
             <ul>
-                <li>2023</li>
-                <li>2022</li>
                 <li>2021</li>
+                <li>2020</li>
             </ul>
         </li>
         <li>Peraturan DPRD Provinsi
             <ul>
-                <li>2023</li>
-                <li>2022</li>
                 <li>2021</li>
             </ul>
         </li>
         <li>Surat Edaran Kepala Daerah
             <ul>
-                <li>2023</li>
-                <li>2022</li>
                 <li>2021</li>
+                <li>2016</li>
+                <li>2015</li>
             </ul>
         </li>
         <li>MoU/Kerjasama Antar Daerah
             <ul>
-                <li>2023</li>
                 <li>2022</li>
-                <li>2021</li>
+                <li>2014</li>
+                <li>2011</li>
+                <li>2010</li>
             </ul>
         </li>
     </ul>
