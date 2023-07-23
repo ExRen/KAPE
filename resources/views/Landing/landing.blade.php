@@ -97,6 +97,11 @@
         <li></li>
     </ul>
 </div>
+
+<footer>
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-md-12">
 <div class = "kontak">
     <h4>Kontak Kami</h4>
     <p>Jalan Kapten A.Rivai Nomor 3
@@ -114,5 +119,9 @@
         <li href ="">Palembang</li>
     </ul>
 </div>
+</div>
+</div>
+</div>
+</footer>
     
 @endsection
