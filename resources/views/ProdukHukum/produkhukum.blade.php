@@ -41,6 +41,7 @@
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Produk Hukum
               </a>
+
               <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="#">RAPERDA</a></li>
             <li><a class="dropdown-item" href="#">PERDA</a></li>
@@ -64,112 +65,158 @@
       </div>
     </nav>
     <!--akhir navbar-->
-  
-<div class="">
-<div class="row justify-content-end">
-<div class="card" style="width: 18rem;">
-<div class="card-header">
-    Peraturan Provinsi
-  </div>
-  <ul class="list-group list-group-flush">
-    <li class="list-group-item">
-              <a class="list-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                RAPERDA
-              </a>
-              <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">2021</a></li>
-            <li><a class="dropdown-item" href="#">2015</a></li>
-            <li><a class="dropdown-item" href="#">2012</a></li>
-            <li><a class="dropdown-item" href="#">2011</a></li>
-              </ul>
-            </li>
-            <li class="list-group-item">
-              <a class="list-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                PERDA
-              </a>
-              <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">2022</a></li>
-            <li><a class="dropdown-item" href="#">2021</a></li>
-            <li><a class="dropdown-item" href="#">2020</a></li>
-            <li><a class="dropdown-item" href="#">2019</a></li>
-            <li><a class="dropdown-item" href="#">2018</a></li>
-            <li><a class="dropdown-item" href="#">2017</a></li>
-            <li><a class="dropdown-item" href="#">2016</a></li>
-              </ul>
-            </li>
-            <li class="list-group-item">
-              <a class="list-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Peraturan Kepala Daerah
-              </a>
-              <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">2022</a></li>
-            <li><a class="dropdown-item" href="#">2021</a></li>
-            <li><a class="dropdown-item" href="#">2020</a></li>
-            <li><a class="dropdown-item" href="#">2019</a></li>
-            <li><a class="dropdown-item" href="#">2018</a></li>
-            <li><a class="dropdown-item" href="#">2017</a></li>
-            <li><a class="dropdown-item" href="#">2016</a></li>
-            <li><a class="dropdown-item" href="#">2016</a></li>
-              </ul>
-            </li>
-            <li class="list-group-item">
-              <a class="list-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Keputusan Kepala Daerah
-              </a>
-              <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">2022</a></li>
-            <li><a class="dropdown-item" href="#">2021</a></li>
-            <li><a class="dropdown-item" href="#">2020</a></li>
-            <li><a class="dropdown-item" href="#">2019</a></li>
-            <li><a class="dropdown-item" href="#">2014</a></li>
-            <li><a class="dropdown-item" href="#">1996</a></li>
-              </ul>
-            </li> 
-  <li class="list-group-item">
-              <a class="list-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Peraturan bersama Kepala Daerah
-              </a>
-              <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">2021</a></li>
-            <li><a class="dropdown-item" href="#">2020</a></li>
-              </ul>
-            </li>
-            <li class="list-group-item">
-              <a class="list-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Peraturan DPRD Provinsi
-              </a>
-              <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">2021</a></li>
-              </ul>
-            </li>
-            <li class="list-group-item">
-              <a class="list-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Surat Edaran Kepala Daerah
-              </a>
-              <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">2021</a></li>
-            <li><a class="dropdown-item" href="#">2016</a></li>
-            <li><a class="dropdown-item" href="#">2015</a></li>
-              </ul>
-            </li>
-            <li class="list-group-item">
-              <a class="list-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                MoU/Kerjasama antar Daerah
-              </a>
-              <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">2022</a></li>
-            <li><a class="dropdown-item" href="#">2014</a></li>
-            <li><a class="dropdown-item" href="#">2011</a></li>
-            <li><a class="dropdown-item" href="#">2010</a></li>
-              </ul>
-            </li>
-</div>
-    </div>
-</div>
-</div>
-</div>
-    </div>
 
+    
+
+<div class="">
+  <div class="row justify-content-end">
+    <div class="col-lg-8">
+      @for ($i = 0; $i < 10; $i++)
+        <div class="card mb-3" style="width: 75rem;">
+          <div class="card-body">
+            <h5 class="card-title"Judul</h5>
+            <h6 class="card-subtitle mb-2 text-body-secondary">Judul</h6>
+            <p class="card-text">keterangan</p>
+            <a href="#" class="card-link">Detail</a>
+            <a href="#" class="card-link">Download</a>
+          </div>
+        </div>
+        @endfor
+    </div>
+    <div class="col-lg-4">
+      <div class="card">
+        <div class="card-header">
+            Peraturan Provinsi
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+                      <a class="list-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        RAPERDA
+                      </a>
+                      <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">2021</a></li>
+                    <li><a class="dropdown-item" href="#">2015</a></li>
+                    <li><a class="dropdown-item" href="#">2012</a></li>
+                    <li><a class="dropdown-item" href="#">2011</a></li>
+                      </ul>
+                    </li>
+                    <li class="list-group-item">
+                      <a class="list-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        PERDA
+                      </a>
+                      <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">2022</a></li>
+                    <li><a class="dropdown-item" href="#">2021</a></li>
+                    <li><a class="dropdown-item" href="#">2020</a></li>
+                    <li><a class="dropdown-item" href="#">2019</a></li>
+                    <li><a class="dropdown-item" href="#">2018</a></li>
+                    <li><a class="dropdown-item" href="#">2017</a></li>
+                    <li><a class="dropdown-item" href="#">2016</a></li>
+                      </ul>
+                    </li>
+                    <li class="list-group-item">
+                      <a class="list-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Peraturan Kepala Daerah
+                      </a>
+                      <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">2022</a></li>
+                    <li><a class="dropdown-item" href="#">2021</a></li>
+                    <li><a class="dropdown-item" href="#">2020</a></li>
+                    <li><a class="dropdown-item" href="#">2019</a></li>
+                    <li><a class="dropdown-item" href="#">2018</a></li>
+                    <li><a class="dropdown-item" href="#">2017</a></li>
+                    <li><a class="dropdown-item" href="#">2016</a></li>
+                    <li><a class="dropdown-item" href="#">2016</a></li>
+                      </ul>
+                    </li>
+                    <li class="list-group-item">
+                      <a class="list-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Keputusan Kepala Daerah
+                      </a>
+                      <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">2022</a></li>
+                    <li><a class="dropdown-item" href="#">2021</a></li>
+                    <li><a class="dropdown-item" href="#">2020</a></li>
+                    <li><a class="dropdown-item" href="#">2019</a></li>
+                    <li><a class="dropdown-item" href="#">2014</a></li>
+                    <li><a class="dropdown-item" href="#">1996</a></li>
+                      </ul>
+                    </li> 
+          <li class="list-group-item">
+                      <a class="list-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Peraturan bersama Kepala Daerah
+                      </a>
+                      <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">2021</a></li>
+                    <li><a class="dropdown-item" href="#">2020</a></li>
+                      </ul>
+                    </li>
+                    <li class="list-group-item">
+                      <a class="list-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Peraturan DPRD Provinsi
+                      </a>
+                      <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">2021</a></li>
+                      </ul>
+                    </li>
+                    <li class="list-group-item">
+                      <a class="list-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Surat Edaran Kepala Daerah
+                      </a>
+                      <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">2021</a></li>
+                    <li><a class="dropdown-item" href="#">2016</a></li>
+                    <li><a class="dropdown-item" href="#">2015</a></li>
+                      </ul>
+                    </li>
+                    <li class="list-group-item">
+                      <a class="list-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        MoU/Kerjasama antar Daerah
+                      </a>
+                      <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">2022</a></li>
+                    <li><a class="dropdown-item" href="#">2014</a></li>
+                    <li><a class="dropdown-item" href="#">2011</a></li>
+                    <li><a class="dropdown-item" href="#">2010</a></li>
+                      </ul>
+                    </li>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+    </div>
+    <footer>
+<div class="container py-5">
+    <div class="row">
+    <div class="col-lg-6 justify-content-center">
+<div class = "kontak">
+    <h4>Kontak Kami</h4>
+    <p>Jalan Kapten A.Rivai Nomor 3
+        (0711) 352388
+        birohukumsumsel@yahoo.com
+    </p>
+    <p>Biro Hukum dan HAM Setda Provinsi Sumatera Selatan</p>
+</div>
+    </div>
+    <div class="col-lg-6 justify-content-center">
+    <h4>Link Terkait</h4>
+    <ul>
+        <li><a href ="instagram.com" target="_blank">Republik Indonesia</a></li>
+        <li href ="">Sekneg RI</li>
+        <li href ="">BPHN</li>
+        <li href ="">Sumatera Selatan</li>
+       
+        <li href ="">Palembang</li>
+    </ul>
+</div>
+    </div>
+</div>
+    </div>
+</footer>
+</html>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 <!-- <div class="row">

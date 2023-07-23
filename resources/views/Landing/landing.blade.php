@@ -219,32 +219,13 @@
     </h1>
     <div class="container">
         @for ($i = 0; $i < 1; $i++)
-<div class="card-group">
-  <div class="card">
-    <div class="card-body">
-      <h5 class="card-title">Judul</h5>
-      <p class="card-text">Detail</p>
-      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-      <a href="#" class="btn btn-primary">Download</a>
-    </div>
+        <div class="card" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title">Judul</h5>
+    <p class="card-text">Detail</p>
+    <a href="#" class="btn btn-primary">Download</a>
   </div>
-  <div class="card">
-    <div class="card-body">
-      <h5 class="card-title">Judul</h5>
-      <p class="card-text">Detail</p>
-      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-      <a href="#" class="btn btn-primary">Download</a>
-    </div>
-  </div>
-  <div class="card">
-    <div class="card-body">
-      <h5 class="card-title">Judul</h5>
-      <p class="card-text">Detail</p>
-      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-      <a href="#" class="btn btn-primary">Download</a>
-    </div>
-  </div>
-    </div>
+</div>
   </div>
   @endfor
 </div>
