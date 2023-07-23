@@ -18,4 +18,9 @@ class RouteController extends Controller
         
         return view ('ProdukHukum.produkhukum');
     }
+
+    public function pengaduan(){
+        
+        return view ('Pengaduan.pengaduan');
+    }
 }

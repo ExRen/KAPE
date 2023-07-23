@@ -21,8 +21,6 @@ Route::get('/', function () {
 });
 
 Route::get('/landing',[RouteController::class,'landing']);
-Route::get('/login', [RouteCOntroller::class,'login']);
+Route::get('/login', [RouteController::class,'login']);
 Route::get('/produkhukum',[RouteController::class,'produkhukum']);
-
-Route::get('/sesi',[SessionController::class,'index']);
-Route::post('/sesi/login',[SessionController::class,'login']);
+Route::get('/pengaduan',[RouteController::class,'pengaduan']);

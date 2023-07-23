@@ -214,9 +214,9 @@
 @endfor                                                                                                                                                                                                                                                                                                                                                             
 </div> -->
 <div class="row">
-    <h1>
+    <h5>
         PERATURAN TERBARU
-    </h1>
+    </h5>
     <div class="container">
         @for ($i = 0; $i < 1; $i++)
         <div class="card" style="width: 18rem;">

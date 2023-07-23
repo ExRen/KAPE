@@ -184,7 +184,6 @@
     </div>
   </div>
 </div>
-
 </div>
     </div>
     <footer>
@@ -207,7 +206,6 @@
         <li href ="">Sekneg RI</li>
         <li href ="">BPHN</li>
         <li href ="">Sumatera Selatan</li>
-       
         <li href ="">Palembang</li>
     </ul>
 </div>
