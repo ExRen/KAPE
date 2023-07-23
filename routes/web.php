@@ -3,6 +3,7 @@
 use App\Http\Controllers\RouteController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Admin;
+use App\Http\Controllers\SessionController;
 
 /*
 |--------------------------------------------------------------------------
@@ -20,9 +21,8 @@ Route::get('/', function () {
 });
 
 Route::get('/landing',[RouteController::class,'landing']);
-Route::get('/login',[RouteController::class,'login']);
-// Route::prefix('Admin')->group(function(){
-// Route::get('/',[Admin\Auth\LoginController::class,'loginForm']);
-// Route::get('/login',[Admin\Auth\LoginController::class,'loginForm'])->name('admin.login');
+Route::get('/login', [RouteCOntroller::class,'login']);
+Route::get('/produkhukum',[RouteController::class,'produkhukum']);
 
-
+Route::get('/sesi',[SessionController::class,'index']);
+Route::post('/sesi/login',[SessionController::class,'login']);

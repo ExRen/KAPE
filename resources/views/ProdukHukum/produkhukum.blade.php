@@ -1,5 +1,5 @@
-@extends('Layout/index')
-@section('isi')
+@extends('Layout/prokum')
+@section('prokum')
 
 <!DOCTYPE html>
 <html lang="en">
@@ -13,6 +13,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="{{asset('logo/logos-01.png') }}" />
     <title>Landing</title>
   </head>
     <!-- logo atas -->
@@ -63,35 +64,13 @@
       </div>
     </nav>
     <!--akhir navbar-->
-
-    <main class="center">
-      <div class="center">
-      </div>
-      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="{{URL('logo/gambar.png') }}" class="d-block w-100" alt="gambar">
-          </div>
-          <div class="carousel-item">
-          <img src="{{URL('logo/gambar.png') }}" class="d-block w-100" alt="gambar">
-          </div>
-          <div class="carousel-item">
-          <img src="{{URL('logo/gambar.png') }}" class="d-block w-100" alt="gambar">
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-<div class="container py-5">
-<div class="row">
-    <div class="col-lg-6 justify-content-center">
+  
+<div class="">
+<div class="row justify-content-end">
 <div class="card" style="width: 18rem;">
+<div class="card-header">
+    Peraturan Provinsi
+  </div>
   <ul class="list-group list-group-flush">
     <li class="list-group-item">
               <a class="list-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -146,10 +125,6 @@
             <li><a class="dropdown-item" href="#">1996</a></li>
               </ul>
             </li> 
-</div>
-    </div>
-    <div class="col-lg-6 justify-content-center">
-<div class="card" style="width: 18rem;">
   <li class="list-group-item">
               <a class="list-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Peraturan bersama Kepala Daerah
@@ -192,6 +167,10 @@
     </div>
 </div>
 </div>
+</div>
+    </div>
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 <!-- <div class="row">
     <h1>
@@ -213,209 +192,4 @@
     </div>
 @endfor                                                                                                                                                                                                                                                                                                                                                             
 </div> -->
-<div class="row">
-    <h1>
-        PERATURAN TERBARU
-    </h1>
-    <div class="container">
-        @for ($i = 0; $i < 1; $i++)
-<div class="card-group">
-  <div class="card">
-    <div class="card-body">
-      <h5 class="card-title">Judul</h5>
-      <p class="card-text">Detail</p>
-      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-      <a href="#" class="btn btn-primary">Download</a>
-    </div>
-  </div>
-  <div class="card">
-    <div class="card-body">
-      <h5 class="card-title">Judul</h5>
-      <p class="card-text">Detail</p>
-      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-      <a href="#" class="btn btn-primary">Download</a>
-    </div>
-  </div>
-  <div class="card">
-    <div class="card-body">
-      <h5 class="card-title">Judul</h5>
-      <p class="card-text">Detail</p>
-      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-      <a href="#" class="btn btn-primary">Download</a>
-    </div>
-  </div>
-    </div>
-  </div>
-  @endfor
-</div>
-  </body>
-
-<footer>
-<div class="container py-5">
-    <div class="row">
-    <div class="col-lg-6 justify-content-center">
-<div class = "kontak">
-    <h4>Kontak Kami</h4>
-    <p>Jalan Kapten A.Rivai Nomor 3
-        (0711) 352388
-        birohukumsumsel@yahoo.com
-    </p>
-    <p>Biro Hukum dan HAM Setda Provinsi Sumatera Selatan</p>
-</div>
-    </div>
-    <div class="col-lg-6 justify-content-center">
-    <h4>Link Terkait</h4>
-    <ul>
-        <li><a href ="instagram.com" target="_blank">Republik Indonesia</a></li>
-        <li href ="">Sekneg RI</li>
-        <li href ="">BPHN</li>
-        <li href ="">Sumatera Selatan</li>
-        <li href ="">Palembang</li>
-    </ul>
-</div>
-    </div>
-</div>
-    </div>
-</footer>
-</html>
-
-<!-- div class="logo">
-    <img src="{{URL('logo/logo.png') }}" alt="logo1">
-    <img src="{{URL('logo/logo2.png')}}" alt="logo2">
-    
-</div>
-<div class="tab-bar">
-    <ul>
-        <li>Beranda</li>
-        <li>Produk Hukum</li>
-        <li>Pengaduan</li>
-        <li><input type="search" id="gsearch" name="gsearch">
-    </ul>
-</div>
-<div class = "gambar">
-    <img src="{{URL('logo/gambar.png') }}" alt="gambar" >
-
-</div>
-<div class="peraturan ">
-    <center><b>PERATURAN PROVINSI</b>  </center>
-    <ul>
-        <div class="Raperda">
-        <li>RAPERDA
-            <ul>
-                <li>2021</li>
-                <li>2015</li>
-                <li>2012</li>
-                <li>2011</li>
-            </ul>
-        </li>
-        </div>
-        <li>Peraturan Daerah (PERDA)
-            <ul>
-                <li>2022</li>
-                <li>2021</li>
-                <li>2020</li>
-                <li>2019</li>
-                <li>2018</li>
-                <li>2017</li>
-                <li>2016</li>
-            </ul>
-        </li>
-        <li>Peraturan Kepala Daerah
-            <ul>
-                <li>2022</li>
-                <li>2021</li>
-                <li>2020</li>
-                <li>2019</li>
-                <li>2018</li>
-                <li>2017</li>
-                <li>2016</li>
-                <li>2015</li>
-            </ul>
-        </li>
-        <li>Keputusan Kepala Daerah
-            <ul>
-                <li>2022</li>
-                <li>2021</li>
-                <li>2020</li>
-                <li>2019</li>
-                <li>2014</li>
-                <li>1996</li>
-            </ul>
-        </li>
-        <li>Peraturan Bersama kepala Daerah
-            <ul>
-                <li>2021</li>
-                <li>2020</li>
-            </ul>
-        </li>
-        <li>Peraturan DPRD Provinsi
-            <ul>
-                <li>2021</li>
-            </ul>
-        </li>
-        <li>Surat Edaran Kepala Daerah
-            <ul>
-                <li>2021</li>
-                <li>2016</li>
-                <li>2015</li>
-            </ul>
-        </li>
-        <li>MoU/Kerjasama Antar Daerah
-            <ul>
-                <li>2022</li>
-                <li>2014</li>
-                <li>2011</li>
-                <li>2010</li>
-            </ul>
-        </li>
-    </ul>
-</div>
-{{-- <div class="dropdown show">
-    <a class="btn btn-secondary dropdown-toggle" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      Dropdown link
-    </a>
-  
-    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-      <a class="dropdown-item" href="#">Action</a>
-      <a class="dropdown-item" href="#">Another action</a>
-      <a class="dropdown-item" href="#">Something else here</a>
-    </div>
-  </div> --}}
-<div>
-    <h3>Peraturan Terbaru</h3>
-    <ul>
-        <li></li>
-    </ul>
-</div>
-
-<footer>
-    <div class="container text-center">
-        <div class="row">
-            <div class="col-md-12">
-<div class = "kontak">
-    <h4>Kontak Kami</h4>
-    <p>Jalan Kapten A.Rivai Nomor 3
-        (0711) 352388
-        birohukumsumsel@yahoo.com
-    </p>
-    <p>Biro Hukum dan HAM Setda Provinsi Sumatera Selatan</p>
-
-    <h4>Link Terkait</h4>
-    <ul>
-        <li><a href ="instagram.com" target="_blank">Republik Indonesia</a></li>
-        <li href ="">Sekneg RI</li>
-        <li href ="">BPHN</li>
-        <li href ="">Sumatera Selatan</li>
-        <li href ="">Palembang</li>
-    </ul>
-<<<<<<< HEAD
-</div>
-</div>
-</div>
-</div>
-</footer>
-=======
-</div> -->
->>>>>>> origin/Valyssa
-    
 @endsection

@@ -14,8 +14,13 @@
 } */
 
 /* Set a style for all buttons */
+<<<<<<< HEAD
 /* button {
   background-color: #04AA6D;
+=======
+button {
+  background-color: #FF3C38;
+>>>>>>> origin/Valyssa
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
