@@ -1,4 +1,4 @@
-.peraturan{
+/* .peraturan{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(253, 255, 255);
     box-shadow: 2cap;
@@ -9,4 +9,9 @@
 .tab-bar{
     position: relative
     /* weight: 700px; */
+} */
+
+/* awal navbar */
+.logo{
+    background-color: #FF3C38;
 }
