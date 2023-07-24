@@ -9,9 +9,35 @@
 .tab-bar{
     position: relative
     /* weight: 700px; */
-} */
+/* } */
 
 /* awal navbar */
+body a{
+    color: white;
+}
 .logo{
+    background-color: #FF3C38;
+}
+footer{
+    position: bottom;
+    bottom: 0;
+    width: 100%;
+    height: 300px;
+    background-color: #394648;
+    padding-top: 30px;
+}
+#container{
+    background-color: #FF3C38;
+}
+.menu a{
+    color: white;
+}
+#landingg a{
+    color: white;
+}
+footer h4, p, li{
+    color: white;
+}
+#dropbtn{
     background-color: #FF3C38;
 }

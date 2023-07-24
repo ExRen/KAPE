@@ -26,7 +26,7 @@
 
   <body id="landingg">
     <!--navbar-->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" style="background-color:#FF3C38 ">
       <div class="container-fluid">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -88,27 +88,28 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
+<section class="menu">
 <div class="container py-5">
 <div class="row">
     <div class="col-lg-6 justify-content-center">
 <div class="card" style="width: 18rem;">
   <ul class="list-group list-group-flush">
-    <li class="list-group-item">
+    <li class="list-group-item" id="container">
               <a class="list-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 RAPERDA
               </a>
-              <ul class="dropdown-menu">
+              <ul class="dropdown-menu" id="dropbtn">
             <li><a class="dropdown-item" href="#">2021</a></li>
             <li><a class="dropdown-item" href="#">2015</a></li>
             <li><a class="dropdown-item" href="#">2012</a></li>
             <li><a class="dropdown-item" href="#">2011</a></li>
               </ul>
             </li>
-            <li class="list-group-item">
+            <li class="list-group-item" id="container" >
               <a class="list-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 PERDA
               </a>
-              <ul class="dropdown-menu">
+              <ul class="dropdown-menu" id="dropbtn">
             <li><a class="dropdown-item" href="#">2022</a></li>
             <li><a class="dropdown-item" href="#">2021</a></li>
             <li><a class="dropdown-item" href="#">2020</a></li>
@@ -118,11 +119,11 @@
             <li><a class="dropdown-item" href="#">2016</a></li>
               </ul>
             </li>
-            <li class="list-group-item">
+            <li class="list-group-item" id="container">
               <a class="list-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Peraturan Kepala Daerah
               </a>
-              <ul class="dropdown-menu">
+              <ul class="dropdown-menu" id="dropbtn">
             <li><a class="dropdown-item" href="#">2022</a></li>
             <li><a class="dropdown-item" href="#">2021</a></li>
             <li><a class="dropdown-item" href="#">2020</a></li>
@@ -133,11 +134,11 @@
             <li><a class="dropdown-item" href="#">2016</a></li>
               </ul>
             </li>
-            <li class="list-group-item">
+            <li class="list-group-item" id="container">
               <a class="list-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Keputusan Kepala Daerah
               </a>
-              <ul class="dropdown-menu">
+              <ul class="dropdown-menu" id="dropbtn">
             <li><a class="dropdown-item" href="#">2022</a></li>
             <li><a class="dropdown-item" href="#">2021</a></li>
             <li><a class="dropdown-item" href="#">2020</a></li>
@@ -150,38 +151,38 @@
     </div>
     <div class="col-lg-6 justify-content-center">
 <div class="card" style="width: 18rem;">
-  <li class="list-group-item">
+  <li class="list-group-item" id="container">
               <a class="list-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Peraturan bersama Kepala Daerah
               </a>
-              <ul class="dropdown-menu">
+              <ul class="dropdown-menu" id="dropbtn">
             <li><a class="dropdown-item" href="#">2021</a></li>
             <li><a class="dropdown-item" href="#">2020</a></li>
               </ul>
             </li>
-            <li class="list-group-item">
+            <li class="list-group-item" id="container">
               <a class="list-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Peraturan DPRD Provinsi
               </a>
-              <ul class="dropdown-menu">
+              <ul class="dropdown-menu" id="dropbtn">
             <li><a class="dropdown-item" href="#">2021</a></li>
               </ul>
             </li>
-            <li class="list-group-item">
+            <li class="list-group-item" id="container">
               <a class="list-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Surat Edaran Kepala Daerah
               </a>
-              <ul class="dropdown-menu">
+              <ul class="dropdown-menu" id="dropbtn">
             <li><a class="dropdown-item" href="#">2021</a></li>
             <li><a class="dropdown-item" href="#">2016</a></li>
             <li><a class="dropdown-item" href="#">2015</a></li>
               </ul>
             </li>
-            <li class="list-group-item">
+            <li class="list-group-item" id="container">
               <a class="list-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 MoU/Kerjasama antar Daerah
               </a>
-              <ul class="dropdown-menu">
+              <ul class="dropdown-menu" id="dropbtn">
             <li><a class="dropdown-item" href="#">2022</a></li>
             <li><a class="dropdown-item" href="#">2014</a></li>
             <li><a class="dropdown-item" href="#">2011</a></li>
@@ -192,6 +193,7 @@
     </div>
 </div>
 </div>
+</section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 <!-- <div class="row">
     <h1>
@@ -213,6 +215,7 @@
     </div>
 @endfor                                                                                                                                                                                                                                                                                                                                                             
 </div> -->
+<section class="new" id="new">
 <div class="row">
     <h5>
         PERATURAN TERBARU
@@ -230,6 +233,7 @@
   @endfor
 </div>
   </body>
+</section>
 
 <footer>
 <div class="container py-5">
