@@ -40,7 +40,7 @@
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Produk Hukum
               </a>
-              <ul class="dropdown-menu">
+              <ul class="dropdown-menu" id="dropbtn">
             <li><a class="dropdown-item" href="#">RAPERDA</a></li>
             <li><a class="dropdown-item" href="#">PERDA</a></li>
             <li><a class="dropdown-item" href="#">PERATURAN KEPALA DAERAH</a></li>

@@ -1,4 +1,18 @@
-.peraturan{
+/* .peraturan{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     background-color: bisque;
+} */
+footer{
+    position: bottom;
+    bottom: 0;
+    width: 100%;
+    height: 300px;
+    background-color: #394648;
+    padding-top: 30px;
+}
+#dropbtn{
+    background-color: #FF3C38;
+}
+footer h4,li, p{
+    color: white;
 }
