@@ -10,20 +10,12 @@ body a{
 .logo{
     background-color: #FF3C38;
 }
-<<<<<<< HEAD
-=======
-.tab-bar{
-    position: relative
-    /* weight: 700px; */
-}
->>>>>>> origin/main
 footer{
     position: bottom;
     bottom: 0;
     width: 100%;
     height: 300px;
     background-color: #394648;
-<<<<<<< HEAD
     padding-top: 30px;
     margin-top: 15px;
 }
@@ -66,10 +58,12 @@ footer h4, p, li{
 }
 #new p{
     color: black;
-=======
-    padding-top: 20px;
 }
-.kontak{
-    color: white;
->>>>>>> origin/main
+#tulisan{
+    padding: auto;
+    margin: 20px;
+    color: #FF3C38;
+    align-items: center;
+    text-align:center;
+    box-sizing: border-box;
 }
