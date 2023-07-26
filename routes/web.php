@@ -23,9 +23,9 @@ Route::get('/', function () {
 Route::get('/landing',[RouteController::class,'landing']);
 Route::get('/login', [RouteController::class,'login']);
 Route::get('/produkhukum',[RouteController::class,'produkhukum']);
-<<<<<<< HEAD
+// <<<<<<< HEAD
 Route::get('/pengaduan',[RouteController::class,'pengaduan']);
-=======
+// =======
 Route::get('/admin', [RouteController::class,'admin']);
 
 
@@ -36,4 +36,4 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
->>>>>>> origin/main
+// >>>>>>> origin/main
