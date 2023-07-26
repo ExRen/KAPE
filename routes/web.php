@@ -23,7 +23,7 @@ Route::get('/', function () {
 Route::get('/landing',[RouteController::class,'landing']);
 Route::get('/login', [RouteCOntroller::class,'login']);
 Route::get('/produkhukum',[RouteController::class,'produkhukum']);
-Route::get('/admin', [RouteController::class,'admin']);
+// Route::get('/admin', [RouteController::class,'admin']);
 
 
 Route::get('/sesi',[SessionController::class,'index']);
