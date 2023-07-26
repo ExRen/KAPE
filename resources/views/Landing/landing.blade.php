@@ -77,10 +77,13 @@
             <img src="{{URL('logo/gambar.png') }}" class="d-block w-100" alt="gambar">
           </div>
           <div class="carousel-item">
-          <img src="{{URL('logo/gambar.png') }}" class="d-block w-100" alt="gambar">
+          <img src="{{URL('logo/banner1.png') }}" class="d-block w-100" alt="gambar">
           </div>
           <div class="carousel-item">
-          <img src="{{URL('logo/gambar.png') }}" class="d-block w-100" alt="gambar">
+          <img src="{{URL('logo/banner3.png') }}" class="d-block w-100" alt="gambar">
+          </div>
+          <div class="carousel-item">
+          <img src="{{URL('logo/banner4.png') }}" class="d-block w-100" alt="gambar">
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -95,7 +98,7 @@
 <section class="menu">
 <div class="container py-5">
 <div class="row" id="row">
-    <div class="col-lg-6 justify-content-center">
+    <div class="col-md-6 justify-content-center">
 <div class="card" style="width: 18rem;">
   <ul class="list-group list-group-flush">
     <li class="list-group-item" id="container">
@@ -153,7 +156,7 @@
             </li> 
 </div>
     </div>
-    <div class="col-lg-6 justify-content-center">
+    <div class="col-md-6 justify-content-center">
 <div class="card" style="width: 18rem;">
   <li class="list-group-item" id="container">
               <a class="list-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -223,7 +226,7 @@
 <footer>
 <div class="container py-5">
     <div class="row">
-    <div class="col-lg-6 justify-content-center">
+    <div class="col-md-6 justify-content-center">
 <div class = "kontak">
     <h4>Kontak Kami</h4>
     <p>Jalan Kapten A.Rivai Nomor 3
@@ -233,7 +236,7 @@
     <p>Biro Hukum dan HAM Setda Provinsi Sumatera Selatan</p>
 </div>
     </div>
-    <div class="col-lg-6 justify-content-center">
+    <div class="col-md-6 justify-content-center">
     <h4>Link Terkait</h4>
     <ul>
         <li><a href ="instagram.com" target="_blank">Republik Indonesia</a></li>
