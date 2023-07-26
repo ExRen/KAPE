@@ -13,6 +13,25 @@ footer{
 #dropbtn{
     background-color: #FF3C38;
 }
+#dropbtn a{
+    color: white;
+}
 footer h4,li, p{
+    color: white;
+}
+#card{
+    margin-top: 20px;
+    background-color: #FF3C38;
+}
+#konten{
+    margin-top: 20px ;
+}
+#navbar a{
+    color: white;
+}
+#cari{
+    background-color: white;
+}
+.item a{
     color: white;
 }

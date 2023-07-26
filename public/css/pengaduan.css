@@ -1,13 +1,24 @@
 footer{
-    position: bottom;
+    position: fixed;
     bottom: 0;
     width: 100%;
     height: 300px;
     background-color: #394648;
-    padding-top: 30px;
+    padding: auto;
+
+}
+.foot{
+    padding: 25px;
+}
+.kontak{
+    text-align: left;
+    padding: auto;
+    margin: auto;
+    padding-right: 50px;
 }
 #card{
     margin: auto;
+    margin-top: 10px;
 }
 #pengaduan a{
     color: white;
@@ -17,4 +28,10 @@ footer h4, p, li{
 }
 #dropbtn{
     background-color: #FF3C38;
+}
+#cari{
+    background-color: white;
+}
+#navbarScroll a{
+    color: white;
 }
