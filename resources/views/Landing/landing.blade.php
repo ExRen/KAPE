@@ -253,5 +253,130 @@
 </html>
 
 
+<<<<<<< HEAD
+=======
+</div>
+<div class="peraturan ">
+    <center><b>PERATURAN PROVINSI</b>  </center>
+    <ul>
+        <div class="Raperda">
+        <li>RAPERDA
+            <ul>
+                <li>2021</li>
+                <li>2015</li>
+                <li>2012</li>
+                <li>2011</li>
+            </ul>
+        </li>
+        </div>
+        <li>Peraturan Daerah (PERDA)
+            <ul>
+                <li>2022</li>
+                <li>2021</li>
+                <li>2020</li>
+                <li>2019</li>
+                <li>2018</li>
+                <li>2017</li>
+                <li>2016</li>
+            </ul>
+        </li>
+        <li>Peraturan Kepala Daerah
+            <ul>
+                <li>2022</li>
+                <li>2021</li>
+                <li>2020</li>
+                <li>2019</li>
+                <li>2018</li>
+                <li>2017</li>
+                <li>2016</li>
+                <li>2015</li>
+            </ul>
+        </li>
+        <li>Keputusan Kepala Daerah
+            <ul>
+                <li>2022</li>
+                <li>2021</li>
+                <li>2020</li>
+                <li>2019</li>
+                <li>2014</li>
+                <li>1996</li>
+            </ul>
+        </li>
+        <li>Peraturan Bersama kepala Daerah
+            <ul>
+                <li>2021</li>
+                <li>2020</li>
+            </ul>
+        </li>
+        <li>Peraturan DPRD Provinsi
+            <ul>
+                <li>2021</li>
+            </ul>
+        </li>
+        <li>Surat Edaran Kepala Daerah
+            <ul>
+                <li>2021</li>
+                <li>2016</li>
+                <li>2015</li>
+            </ul>
+        </li>
+        <li>MoU/Kerjasama Antar Daerah
+            <ul>
+                <li>2022</li>
+                <li>2014</li>
+                <li>2011</li>
+                <li>2010</li>
+            </ul>
+        </li>
+    </ul>
+</div>
+{{-- <div class="dropdown show">
+    <a class="btn btn-secondary dropdown-toggle" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Dropdown link
+    </a>
+  
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+      <a class="dropdown-item" href="#">Action</a>
+      <a class="dropdown-item" href="#">Another action</a>
+      <a class="dropdown-item" href="#">Something else here</a>
+    </div>
+  </div> --}}
+<div>
+    <h3>Peraturan Terbaru</h3>
+    <ul>
+        <li></li>
+    </ul>
+</div>
+
+<footer>
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-md-12">
+<div class = "kontak">
+    <h4>Kontak Kami</h4>
+    <p>Jalan Kapten A.Rivai Nomor 3
+        (0711) 352388
+        birohukumsumsel@yahoo.com
+    </p>
+    <p>Biro Hukum dan HAM Setda Provinsi Sumatera Selatan</p>
+
+    <h4>Link Terkait</h4>
+    <ul>
+        <li><a href ="instagram.com" target="_blank">Republik Indonesia</a></li>
+        <li href ="">Sekneg RI</li>
+        <li href ="">BPHN</li>
+        <li href ="">Sumatera Selatan</li>
+        <li href ="">Palembang</li>
+    </ul>
+<<<<<<< HEAD
+</div>
+</div>
+</div>
+</div>
+</footer>
+=======
+</div> -->
+>>>>>>> origin/Valyssa
+>>>>>>> origin/main
     
 @endsection
