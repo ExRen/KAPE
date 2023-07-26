@@ -14,6 +14,8 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="style.css" />
     <title>Pengaduan</title>
+
+    
   </head>
     <!-- logo atas -->
 <div class="row">
