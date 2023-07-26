@@ -29,33 +29,6 @@
     </div>
 
     <body id="pengaduan">
-      <footer>
-        <div class="foot">
-            <div class="row">
-                <div class="col-lg-6 justify-content-center">
-                    <div class="kontak">
-                        <h4>Kontak Kami</h4>
-                        <p>Jalan Kapten A.Rivai Nomor 3
-                            (0711) 352388
-                            birohukumsumsel@yahoo.com
-                        </p>
-                        <p>Biro Hukum dan HAM Setda Provinsi Sumatera Selatan</p>
-                    </div>
-                </div>
-                <div class="col-lg-6 justify-content-center">
-                    <h4>Link Terkait</h4>
-                    <ul>
-                        <li><a href="instagram.com" target="_blank">Republik Indonesia</a></li>
-                        <li href="">Sekneg RI</li>
-                        <li href="">BPHN</li>
-                        <li href="">Sumatera Selatan</li>
-                        <li href="">Palembang</li>
-                    </ul>
-                </div>
-            </div>
-          </div>
-        </div>
-      </footer>
         <!--navbar-->
         <nav class="navbar navbar-expand-lg bg-body-tertiary" style="background-color: #FF3C38">
             <div class="container-fluid">
@@ -103,7 +76,6 @@
                     <div class="card-header" style="background-color: #C6EBC5">
                         <h3 style="text-align: center">PENGADUAN</h3>
                     </div>
-                </div>
                 <div class="mb-3">
                     <label for="exampleFormControlInput1" class="form-label">Nama</label>
                     <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="isi nama disini">
@@ -113,8 +85,39 @@
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="7"></textarea>
                     <button type="submit">Kirim</button>
                 </div>
+                </div>
+                </div>
+                </div>
     </body>
-
+    
+    <footer>
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-lg-6 justify-content-center">
+          <div class="kontak">
+            <h4>Kontak Kami</h4>
+            <p>Jalan Kapten A.Rivai Nomor 3
+              (0711) 352388
+              birohukumsumsel@yahoo.com
+            </p>
+            <p>Biro Hukum dan HAM Setda Provinsi Sumatera Selatan</p>
+          </div>
+        </div>
+        <div class="col-lg-6 justify-content-center">
+          <h4>Link Terkait</h4>
+          <ul>
+            <li><a href="instagram.com" target="_blank">Republik Indonesia</a></li>
+            <li href="">Sekneg RI</li>
+            <li href="">BPHN</li>
+            <li href="">Sumatera Selatan</li>
+            <li href="">Palembang</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+</div>
+  </footer>
+  
     </html>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
