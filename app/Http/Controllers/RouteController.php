@@ -19,13 +19,7 @@ class RouteController extends Controller
         return view ('ProdukHukum.produkhukum');
     }
 
-<<<<<<< HEAD
-    public function pengaduan(){
-        
-        return view ('Pengaduan.pengaduan');
-=======
     public function admin(){
         return view ('admin.admin');
->>>>>>> origin/main
     }
 }
