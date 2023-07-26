@@ -23,10 +23,7 @@ Route::get('/', function () {
 Route::get('/landing',[RouteController::class,'landing']);
 Route::get('/login', [RouteController::class,'login']);
 Route::get('/produkhukum',[RouteController::class,'produkhukum']);
-// <<<<<<< HEAD
-Route::get('/pengaduan',[RouteController::class,'pengaduan']);
-// =======
-Route::get('/admin', [RouteController::class,'admin']);
+// Route::get('/admin', [RouteController::class,'admin']);
 
 
 Route::get('/sesi',[SessionController::class,'index']);
@@ -37,3 +34,7 @@ Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 // >>>>>>> origin/main
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Auth::routes();

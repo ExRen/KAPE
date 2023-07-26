@@ -3,13 +3,22 @@
         'name' => 'laravel/laravel',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => 'ca1853142410abb215b2fc0850d35907147320d5',
+        'reference' => '8eaeec94d9f27ba9d785ffbac471751d06755e35',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
         'dev' => true,
     ),
     'versions' => array(
+        'almasaeed2010/adminlte' => array(
+            'pretty_version' => 'v3.2.0',
+            'version' => '3.2.0.0',
+            'reference' => 'bd4d9c72931f1dd28601b6bfb387554a381ad540',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../almasaeed2010/adminlte',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
         'brick/math' => array(
             'pretty_version' => '0.11.0',
             'version' => '0.11.0.0',
@@ -391,7 +400,7 @@
         'laravel/laravel' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => 'ca1853142410abb215b2fc0850d35907147320d5',
+            'reference' => '8eaeec94d9f27ba9d785ffbac471751d06755e35',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
