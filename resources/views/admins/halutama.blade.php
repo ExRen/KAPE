@@ -1,9 +1,8 @@
-@extends ('Layout/halutama')
-@section('adm')
+@extends('layouts.app')
+@section('content')
 
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <!-- Required meta tags -->
   <meta charset="utf-8" />
@@ -16,79 +15,56 @@
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="style.css" />
-  <title>Landing</title>
+  <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+  <title>Admin</title>
 </head>
-<!-- logo atas -->
-<div class="row">
-  <div class="logo">
-    <img src="{{URL('logo/logo.png') }}" alt="logo1" height="51px" align="left">
-    <img src="{{URL('logo/logo2.png')}}" alt="logo2" height="60px" align="right">
-      
-  </div>
-</div>
-<!-- logo atas -->
-
-<body id="landingg">
-  <!--navbar-->
-  <nav class="navbar navbar-expand-lg bg-body-tertiary" style="background-color:#FF3C38 ">
-    <div class="container-fluid">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarScroll">
-        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Beranda</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Produk Hukum
-            </a>
-            <ul class="dropdown-menu" id="dropbtn">
-              <div class="item">
-                <li><a class="dropdown-item" href="#">RAPERDA</a></li>
-                <li><a class="dropdown-item" href="#">PERDA</a></li>
-                <li><a class="dropdown-item" href="#">PERATURAN KEPALA DAERAH</a></li>
-                <li><a class="dropdown-item" href="#">KEPUTUSAN KEPALA DAERAH</a></li>
-                <li><a class="dropdown-item" href="#">PERATURAN BERSAMA KEPALA DAERAH</a></li>
-                <li><a class="dropdown-item" href="#">PERATURAN DPRD PROVINSI</a></li>
-                <li><a class="dropdown-item" href="#">SURAT EDARAN KEPALA DAERAH</a></li>
-                <li><a class="dropdown-item" href="#">MOU/KERJASAMA ANTAR DAERAH</a></li>
-              </div>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link ">Pengaduan</a>
-          </li>
-        </ul>
-        <form class="d-flex" role="Pencarian">
-          <input class="form-control me-2" type="Pencarian" placeholder="Pencarian" aria-label="Pencarian">
-          <button class="btn btn-outline-success" type="submit" id="cari">Cari</button>
-        </form>
-      </div>
+<body>
+<div class="container-fluid">
+        <h1 class="text-black-50">You are logged in!</h1>
     </div>
-  </nav>
-  <!--akhir navbar-->
+ <!--button-->
+    <a href="/kelola" type="button" class="btn btn-success">
+        Tambah Data
+</a>
+ <!--akhir button-->
+<!--table-->
+<div class="table-responsive mt-5">
+        <table class="table align-middle">
+            <thead>
+                <tr>
+                    <th>No.</th>
+                    <th>Tahun</th>
+                    <th>Detail</th>
+                    <th>File</th>
+                    <th>Aksi</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1.</td>
+                    <td>2020</td>
+                    <td>Peraturan tentang Valy cantik</td>
+                    <td>
+                        <object data="doc/form 3.pdf" type="application / pdf">
+                        <embed src = "doc/form 3.pdf" type = "application / pdf" width = "10%" height = "60px" download="aaa"/>
+                        <td>
+                        <a href="/kelola?ubah=1" type="button" class="btn btn-success btn-sm">
+                            Ubah
+                        </a>
+                        <button type="button" class="btn btn-danger btn-sm">
+                            Hapus
+                        </button>
+                        </td>
+                    </object>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        </div>
+<!--akhir table-->
 
-     <!--judul-->
-     <figure class="text-center">
-     <blockquote class="blockquote">
-        <h3>Halaman Admin</h3>
-     </blockquote>
-    <figcaption class="blockquote-footer">
-         JDIH PROVINSI<cite title="Source Title"> SUMATERA SELATAN</cite>
-  </figcaption>
-</figure>
-    <button type="button" class="btn btn-success">Tambah Data</button>
-   <!--judul-->
-
-    <!--isi-->
-<div class="table-responsive">
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    
-  </body>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+   </body>
 
 </html>
-@endsection
+    @endsection
