@@ -4,32 +4,93 @@
     <div class="container-fluid">
         <h1 class="text-black-50">You are logged in!</h1>
     </div>
-    <div class="info-box">
-        <span class="info-box-icon bg-info"><i class="far fa-envelope"></i></span>
-        <div class="info-box-content" style= "; ">
-          <span class="info-box-text">Messages</span>
-          <span class="info-box-number">1,410</span>
+    {{-- <div class="card">
+        <div class="card-header">
+            <h3 class="card-title">Default Card Example</h3>
+            <div class="card-tools">
+                <!-- Buttons, labels, and many other things can be placed here! -->
+                <!-- Here is a label for example -->
+                <span class="badge badge-primary">Label</span>
+            </div>
+            <!-- /.card-tools -->
         </div>
-      </div>
-      <div class="info-box bg-success">
-        <span class="info-box-icon"><i class="far fa-flag"></i></span>
-        <div class="info-box-content">
-          <span class="info-box-text">Bookmarks</span>
-          <span class="info-box-number">410</span>
+        <!-- /.card-header -->
+        <div class="card-body">
+            The body of the card
         </div>
-      </div>
-      <div class="info-box bg-gradient-warning">
-        <span class="info-box-icon"><i class="far fa-copy"></i></span>
-        <div class="info-box-content">
-          <span class="info-box-text">Uploads</span>
-          <span class="info-box-number">13,648</span>
+        <!-- /.card-body -->
+        <div class="card-footer">
+            The footer of the card
         </div>
-      </div>
+        <!-- /.card-footer -->
+    </div>
+    <!-- /.card --> --}}
+    <div class="card card-primary">
+        <div class="card-header">
+            <h3 class="card-title">Card Tools</h3>
 
-      
+            <div class="card-tools">
+                <!-- This will cause the card to maximize when clicked -->
+                <button type="button" class="btn btn-tool" data-card-widget="maximize"><i class="fas fa-expand"></i></button>
+                <!-- This will cause the card to collapse when clicked -->
+                <button type="button" class="btn btn-tool" data-card-widget="collapse"><i
+                        class="fas fa-minus"></i></button>
+                <!-- This will cause the card to be removed when clicked -->
+                <button type="button" class="btn btn-tool" data-card-widget="remove"><i class="fas fa-times"></i></button>
+            </div>
+            <!-- /.card-tools -->
+        </div>
+        <!-- /.card-header -->
+        <div class="card-body">
+            The body of the card
+        </div>
+        <!-- /.card-body -->
+    </div>
+    <!-- /.card -->
+    <div class="card card-primary">
+        <div class="card-header">
+            <h3 class="card-title">Card Tools</h3>
 
-      
+            <div class="card-tools">
+                <!-- This will cause the card to maximize when clicked -->
+                <button type="button" class="btn btn-tool" data-card-widget="maximize"><i
+                        class="fas fa-expand"></i></button>
+                <!-- This will cause the card to collapse when clicked -->
+                <button type="button" class="btn btn-tool" data-card-widget="collapse"><i
+                        class="fas fa-minus"></i></button>
+                <!-- This will cause the card to be removed when clicked -->
+                <button type="button" class="btn btn-tool" data-card-widget="remove"><i class="fas fa-times"></i></button>
+            </div>
+            <!-- /.card-tools -->
+        </div>
+        <!-- /.card-header -->
+        <div class="card-body">
+            The body of the card
+        </div>
+        <!-- /.card-body -->
+        <!-- /.card -->
+        <div class="card card-primary">
+            <div class="card-header">
+                <h3 class="card-title">Card Tools</h3>
 
-   
-
-@endsection
+                <div class="card-tools">
+                    <!-- This will cause the card to maximize when clicked -->
+                    <button type="button" class="btn btn-tool" data-card-widget="maximize"><i
+                            class="fas fa-expand"></i></button>
+                    <!-- This will cause the card to collapse when clicked -->
+                    <button type="button" class="btn btn-tool" data-card-widget="collapse"><i
+                            class="fas fa-minus"></i></button>
+                    <!-- This will cause the card to be removed when clicked -->
+                    <button type="button" class="btn btn-tool" data-card-widget="remove"><i
+                            class="fas fa-times"></i></button>
+                </div>
+                <!-- /.card-tools -->
+            </div>
+            <!-- /.card-header -->
+            <div class="card-body">
+                The body of the card
+            </div>
+            <!-- /.card-body -->
+        </div>
+        <!-- /.card -->
+    @endsection
