@@ -24,6 +24,7 @@ Route::get('/landing',[RouteController::class,'landing']);
 Route::get('/login', [RouteController::class,'login']);
 Route::get('/produkhukum',[RouteController::class,'produkhukum']);
 Route::get('/pengaduan',[RouteController::class,'pengaduan']);
+Route::get('/halutama',[RouteController::class,'admins']);
 
 // Route::get('/admin', [RouteController::class,'admin']);
 

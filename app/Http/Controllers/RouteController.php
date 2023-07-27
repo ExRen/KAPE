@@ -15,7 +15,6 @@ class RouteController extends Controller
     }
 
     public function produkhukum(){
-        
         return view ('ProdukHukum.produkhukum');
     }
 
@@ -24,5 +23,8 @@ class RouteController extends Controller
     }
     public function pengaduan(){
         return view ('Pengaduan.pengaduan');
+    }
+    public function admins(){
+        return view ('admins.halutama');
     }
 }
