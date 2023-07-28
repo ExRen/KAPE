@@ -1,7 +1,5 @@
-
-
 footer{
-    position: bottom;
+    position:bottom;
     bottom: 0;
     width: 100%;
     height: 300px;
@@ -10,13 +8,31 @@ footer{
     padding: auto;
 
 }
+.ul{
+    position: relative;
+}
+.foot{
+    padding: auto;
+    position: fixed;
+    bottom: 0;
+
+}
 .kontak{
     text-align: left;
     padding: auto;
     margin: auto;
     padding-right: 50px;
 }
-
+#card{
+    margin: auto;
+    margin-top: 10px;
+}
+#pengaduan a{
+    color: white;
+}
+footer h4, p, li{
+    color: white;
+}
 #dropbtn{
     background-color: #FF3C38;
 }
@@ -25,17 +41,4 @@ footer{
 }
 #navbarScroll a{
     color: white;
-} 
-.item a{
-    color: white;
-}
-#konten{
-    margin-top: 20px ;
-}
-#card{
-    margin-top: 20px;
-    background-color: #FF3C38;
-}
-.card-header{
-    color: floralwhite;
 }
