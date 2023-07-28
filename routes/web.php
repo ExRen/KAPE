@@ -3,6 +3,7 @@
 use App\Http\Controllers\RouteController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Admin;
+use App\Http\Controllers\AdminController;
 use App\Http\Controllers\SessionController;
 
 /*
@@ -24,6 +25,8 @@ Route::get('/landing',[RouteController::class,'landing']);
 Route::get('/login', [RouteController::class,'login']);
 Route::get('/produkhukum',[RouteController::class,'produkhukum']);
 Route::get('/pengaduan',[RouteController::class,'pengaduan']);
+Route::post('/proses',[AdminController::class,'pro']);
+
 // Route::get('/admin', [RouteController::class,'admin']);
 
 

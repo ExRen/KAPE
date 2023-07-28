@@ -8,7 +8,7 @@ class AdminController extends Controller
 {
 
 public function pro(){
-        return view ('proses');
+        return view ('admins.proses');
     }
 
 }

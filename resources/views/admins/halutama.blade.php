@@ -20,7 +20,7 @@
 </head>
 <body>
 <div class="container-fluid">
-        <h1 class="text-black-50">You are logged in!</h1>
+        <h3 class="text-black-50" style="font-size: 25px; padding:auto;">You are logged in!</h3>
     </div>
  <!--button-->
     <a href="/kelola" type="button" class="btn btn-success">
@@ -43,7 +43,7 @@
                 <tr>
                     <td>1.</td>
                     <td>2020</td>
-                    <td>Peraturan tentang Valy cantik</td>
+                    <td>Peraturan tentang Valy </td>
                     <td>
                         <object data="doc/form 3.pdf" type="application / pdf">
                         <embed src = "doc/form 3.pdf" type = "application / pdf" width = "10%" height = "60px" download="aaa"/>
