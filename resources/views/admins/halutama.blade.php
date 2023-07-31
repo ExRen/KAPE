@@ -51,9 +51,9 @@
                         <a href="/kelola?ubah=1" type="button" class="btn btn-success btn-sm">
                             Ubah
                         </a>
-                        <button type="button" class="btn btn-danger btn-sm">
+                        <a href="/proses?hapus=1" type="button" class="btn btn-danger btn-sm">
                             Hapus
-                        </button>
+                        </a>
                         </td>
                     </object>
                     </td>

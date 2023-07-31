@@ -47,6 +47,7 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 Route::get('/halutama',[RouteController::class,'admins']);
 Route::get('/kelola',[RouteController::class,'kelola']);
 Route::post('/proses',[AdminController::class,'pro']);
+Route::post('/koneksi',[AdminController::class,'koneksi']);
 // Route::post('/proses', [App\Http\Controllers\HomeController::class, 'pro'])->name('proses');
 
 
