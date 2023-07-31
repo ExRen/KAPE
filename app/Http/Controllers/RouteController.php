@@ -30,8 +30,8 @@ class RouteController extends Controller
     public function kelola(){
         return view ('admins.kelola');
     }
-    public function koneksi(){
-        return view ('admins.koneksi');
-    }
+    // public function con(){
+    //     return view ('admins.koneksi');
+    // }
     
 }

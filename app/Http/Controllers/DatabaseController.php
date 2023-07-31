@@ -12,6 +12,7 @@ class DatabaseController extends Controller
     public function index()
     {
         //
+        // return view('admins.koneksi');
     }
 
     /**

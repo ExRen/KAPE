@@ -11,4 +11,8 @@ public function pro(){
         return view ('admins.proses');
     }
 
+public function con(){
+    return view ('admins.koneksi');
+}
+
 }

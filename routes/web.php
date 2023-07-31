@@ -4,6 +4,7 @@ use App\Http\Controllers\RouteController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Admin;
 use App\Http\Controllers\AdminController;
+use App\Http\Controllers\DatabaseController;
 use App\Http\Controllers\SessionController;
 
 /*
@@ -47,7 +48,10 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 Route::get('/halutama',[RouteController::class,'admins']);
 Route::get('/kelola',[RouteController::class,'kelola']);
 Route::post('/proses',[AdminController::class,'pro']);
-Route::post('/koneksi',[AdminController::class,'koneksi']);
+// Route::post('/koneksi',[AdminController::class,'koneksi']);
+Route::post('/koneksi',[AdminController::class,'con']);
+
+// Route::post('/koneksi'[DatabaseController::class,'con']);
 // Route::post('/proses', [App\Http\Controllers\HomeController::class, 'pro'])->name('proses');
 
 
