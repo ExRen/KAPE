@@ -69,7 +69,7 @@
     </div>
   </nav>
   <!--akhir navbar-->
-    
+   
 
   <main class="center">
     <div class="center">
@@ -97,7 +97,6 @@
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
-            
     </div>
     <section class="menu">
       <p id="tulisan">Peraturan Provinsi</p>
@@ -207,54 +206,55 @@
       </div>
     </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    </div> -->
-    <section class="new" id="new">
-      <div class="row">
-        <h5>
-          PERATURAN TERBARU
-        </h5>
-        <div class="container">
-          @for ($i = 0; $i < 1; $i++) <div class="card" style="width: 18rem;">
-            <div class="card-body">
-              <h6 class="card-title">Judul</h6>
-              <p class="card-text">Detail</p>
-              <a href="#" class="btn btn-primary">Download</a>
-            </div>
+    </div>
+
+    <div class="card text-center">
+      <div class="card-header" id="wleo">
+        JDIH PROV SUMSEL
+      </div>
+      <div class="card-body" id="pilat">
+        <h5 class="card-title">Jaringan Dokumentasi Informasi Hukum Pemerintah Sumatera Selatan</h5>
+        <div class="pler">
+          <p class="card-text">Situs ini merupakan situs resmi Biro Hukum dan HAM Setda Provinsi Sumatera Selatan
+          . Situs ini memuat data dan informasi - informasi produk hukum baik pusat maupun daerah.
+          </p>
+         
+          <a href="#" class="btn btn-primary">jdih.go.id</a>
         </div>
       </div>
-      @endfor
-      </div>
-    </section>
-    <footer>
-    <div class="container py-5">
-      <div class="row">
-        <div class="col-md-6 justify-content-center">
-          <div class="kontak">
-            <h4>Kontak Kami</h4>
-            <p>Jalan Kapten A.Rivai Nomor 3
-              (0711) 352388
-              birohukumsumsel@yahoo.com
-            </p>
-            <p>Biro Hukum dan HAM Setda Provinsi Sumatera Selatan</p>
-          </div>
-        </div>
-        <div class="col-md-6 justify-content-center">
-          <h4>Link Terkait</h4>
-          <ul>
-            <li><a href="instagram.com" target="_blank">Republik Indonesia</a></li>
-            <li href="">Sekneg RI</li>
-            <li href="">BPHN</li>
-            <li href="">Sumatera Selatan</li>
-            <li href="">Palembang</li>
-          </ul>
-        </div>
+      <div class="card-footer text-body-secondary" id="wlea">
       </div>
     </div>
-  </footer>
-  </body>
+    <footer>
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-md-6 justify-content-center">
+            <div class="kontak">
+              <h4>Kontak Kami</h4>
+              <p>Jalan Kapten A.Rivai Nomor 3
+                (0711) 352388
+                birohukumsumsel@yahoo.com
+              </p>
+              <p>Biro Hukum dan HAM Setda Provinsi Sumatera Selatan</p>
+            </div>
+          </div>
+          <div class="col-md-6 justify-content-center">
+            <h4>Link Terkait</h4>
+            <ul>
+              <li><a href="instagram.com" target="_blank">Republik Indonesia</a></li>
+              <li href="">Sekneg RI</li>
+              <li href="">BPHN</li>
+              <li href="">Sumatera Selatan</li>
+              <li href="">Palembang</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+</body>
 
 </html>
 
 
-    
+
 @endsection

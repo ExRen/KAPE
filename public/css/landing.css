@@ -40,7 +40,25 @@ footer h4, p, li{
     background-color: white;
 }
 #row{
-    padding-left: 150px;
+    padding-left: 220px;
+    margin-left: auto;
+}
+#wleo{ 
+    background-color: #FF3C38;
+    color: #ffffff;
+}
+#wlea{
+    background-color: #FF3C38;
+    padding-bottom: 30px;
+}
+.card-text{
+    color: #242222;
+}
+.pler{
+    color: #242222;
+}
+#wlei{
+    color: #242222;
 }
 #cari{
     background-color: white;
@@ -50,14 +68,15 @@ footer h4, p, li{
     border-color: black;
 }
 #new{
-    background-color: #FF3C38;
+    background-color: #fbfafa;
     padding: 20px;
 }
 #new h5{
     color: white;
 }
 #new p{
-    color: black;
+    color:  #242222;
+
 }
 #tulisan{
     padding: auto;
@@ -66,4 +85,5 @@ footer h4, p, li{
     align-items: center;
     text-align:center;
     box-sizing: border-box;
+    font-size :x-large;
 }

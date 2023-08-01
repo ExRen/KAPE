@@ -1,14 +1,9 @@
-{{-- <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script src="https://cdn.jsdelivr.net/npm/admin-lte@3.2/dist/js/adminlte.min.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/admin-lte@3.2/dist/css/adminlte.min.css">
-    <title>ADMIN</title>
-</head>
-<body>
-    @yield('admins')
-</body>
-</html> --}}
+<?xml version="1.0" encoding="utf-8"?>
+<Survey Version="1.0" Full="1" MaxQuestionID="1" MaxResponseID="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="new_askia_flexible.xsd">
+    <Languages>
+        <Language ID="2057" Abbr="ENG" Name="English (United Kingdom)" Default="1"/>
+    </Languages>
+    <Questions>
+        {{-- 
+    </Questions>
+</Survey>
