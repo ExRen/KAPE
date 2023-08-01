@@ -39,10 +39,10 @@
                 <div class="collapse navbar-collapse" id="navbarScroll">
                     <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Beranda</a>
+                            <a class="nav-link active" aria-current="page" href="/">Beranda</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            <a class="nav-link dropdown-toggle" href="/produkhukum" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">
                                 Produk Hukum
                             </a>
@@ -59,7 +59,7 @@
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link ">Pengaduan</a>
+                            <a class="nav-link " href="/pengaduan">Pengaduan</a>
                         </li>
                     </ul>
                     <form class="d-flex" role="Pencarian">
