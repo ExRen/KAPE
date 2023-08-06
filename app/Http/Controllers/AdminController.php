@@ -8,7 +8,11 @@ class AdminController extends Controller
 {
 
 public function pro(){
-        return view ('proses');
+        return view ('admins.proses');
     }
+
+public function con(){
+    return view ('admins.koneksi');
+}
 
 }

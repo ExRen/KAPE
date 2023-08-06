@@ -17,21 +17,21 @@ class RouteController extends Controller
     public function produkhukum(){
         return view ('ProdukHukum.produkhukum');
     }
-    public function pengaduan(){
-        return view ('Pengaduan.pengaduan');
-    }
+    // public function pengaduan(){
+    //     return view ('Pengaduan.pengaduan');
+    // }
 
     public function admin(){
         return view ('admin.admin');
     }
-    public function admins(){
-        return view ('admins.halutama');
-    }
+    // public function admins(){
+    //     return view ('admins.halutama');
+    // }
     public function kelola(){
         return view ('admins.kelola');
     }
-    public function koneksi(){
-        return view ('admins.koneksi');
-    }
+    // public function con(){
+    //     return view ('admins.koneksi');
+    // }
     
 }

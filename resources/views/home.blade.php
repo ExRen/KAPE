@@ -22,49 +22,89 @@
 <div class="container-fluid">
         <h1 class="text-black-50">You are logged in!</h1>
     </div>
- <!--button-->
-    <button type="button" class="btn btn-success">
-        Tambah Data
-    </button>
- <!--akhir button-->
-<!--table-->
-<div class="table-responsive">
-        <table class="table align-middle">
-            <thead>
-                <tr>
-                    <th>No.</th>
-                    <th>Tahun</th>
-                    <th>Detail</th>
-                    <th>File</th>
-                    <th>Aksi</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>1.</td>
-                    <td>2020</td>
-                    <td>Peraturan tentang Valy cantik</td>
-                    <td>
-                        <object data="doc/form 3.pdf" type="application / pdf">
-                        <embed src = "doc/form 3.pdf" type = "application / pdf" width = "10%" height = "60px" download="aaa"/>
-                        <td>
-                        <button type="button" class="btn btn-success btn-sm">
-                            Ubah
-                        </button>
-                        <button type="button" class="btn btn-danger btn-sm">
-                            Hapus
-                        </button>
-                        </td>
-                    </object>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
+    <div class="info-box">
+        <span class="info-box-icon bg-info"><i class="far fa-envelope"></i></span>
+        <div class="info-box-content" style= "; ">
+          <span class="info-box-text">Messages</span>
+          <span class="info-box-number">1,410</span>
         </div>
-<!--akhir table-->
+        <!-- /.card-header -->
+        <div class="card-body">
+            The body of the card
+        </div>
+        <!-- /.card-body -->
+        <div class="card-footer">
+            The footer of the card
+        </div>
+        <!-- /.card-footer -->
+    </div>
+    {{-- <!-- /.card --> --}}
+    <div class="card card-primary">
+        <div class="card-header">
+            <h3 class="card-title">Card Tools</h3>
 
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-   </body>
+            <div class="card-tools">
+                <!-- This will cause the card to maximize when clicked -->
+                <button type="button" class="btn btn-tool" data-card-widget="maximize"><i class="fas fa-expand"></i></button>
+                <!-- This will cause the card to collapse when clicked -->
+                <button type="button" class="btn btn-tool" data-card-widget="collapse"><i
+                        class="fas fa-minus"></i></button>
+                <!-- This will cause the card to be removed when clicked -->
+                <button type="button" class="btn btn-tool" data-card-widget="remove"><i class="fas fa-times"></i></button>
+            </div>
+            <!-- /.card-tools -->
+        </div>
+        <!-- /.card-header -->
+        <div class="card-body">
+            The body of the card
+        </div>
+        <!-- /.card-body -->
+    </div>
+    <!-- /.card -->
+    <div class="card card-primary">
+        <div class="card-header">
+            <h3 class="card-title">Card Tools</h3>
 
-</html>
+            <div class="card-tools">
+                <!-- This will cause the card to maximize when clicked -->
+                <button type="button" class="btn btn-tool" data-card-widget="maximize"><i
+                        class="fas fa-expand"></i></button>
+                <!-- This will cause the card to collapse when clicked -->
+                <button type="button" class="btn btn-tool" data-card-widget="collapse"><i
+                        class="fas fa-minus"></i></button>
+                <!-- This will cause the card to be removed when clicked -->
+                <button type="button" class="btn btn-tool" data-card-widget="remove"><i class="fas fa-times"></i></button>
+            </div>
+            <!-- /.card-tools -->
+        </div>
+        <!-- /.card-header -->
+        <div class="card-body">
+            The body of the card
+        </div>
+        <!-- /.card-body -->
+        <!-- /.card -->
+        <div class="card card-primary">
+            <div class="card-header">
+                <h3 class="card-title">Card Tools</h3>
+
+                <div class="card-tools">
+                    <!-- This will cause the card to maximize when clicked -->
+                    <button type="button" class="btn btn-tool" data-card-widget="maximize"><i
+                            class="fas fa-expand"></i></button>
+                    <!-- This will cause the card to collapse when clicked -->
+                    <button type="button" class="btn btn-tool" data-card-widget="collapse"><i
+                            class="fas fa-minus"></i></button>
+                    <!-- This will cause the card to be removed when clicked -->
+                    <button type="button" class="btn btn-tool" data-card-widget="remove"><i
+                            class="fas fa-times"></i></button>
+                </div>
+                <!-- /.card-tools -->
+            </div>
+            <!-- /.card-header -->
+            <div class="card-body">
+                The body of the card
+            </div>
+            <!-- /.card-body -->
+        </div>
+        <!-- /.card -->
     @endsection
